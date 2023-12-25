@@ -1,0 +1,23 @@
+﻿<br />
+<select id="countryList" class="form-control" style="width:500px;">
+    <option> ----- Select Country ----- </option>
+</select>
+<br />
+<select id="stateList" class="form-control" style="width:500px; display:none">
+    <option> ----- Select State ----- </option>
+</select>
+<br />
+<select id="cityList" class="form-control" style="width:500px; display:none">
+    <option> ----- Select City ------ </option>
+</select>
+<br />
+<select id="zipcodeList" class="form-control" style="width:500px; display:none">
+    <option> ----- Select Zipcode ------ </option>
+</select>
+@* <input type="button" onclick="clickHere()" value="Submit" /> *@
+<script src="~/js/JavaScript.js"></script>
+<script>
+    $(document).ready(function () {
+        GetAllCountries();
+    })
+</script>
